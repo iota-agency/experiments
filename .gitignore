@@ -1,0 +1,6 @@
+.idea
+
+jupyter/.ipynb_checkpoints
+vc_posts.csv
+
+node_modules

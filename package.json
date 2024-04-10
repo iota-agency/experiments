@@ -1,0 +1,29 @@
+{
+  "name": "getsource",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "build": "tsc",
+    "dev": "ts-node index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.4.3"
+  },
+  "dependencies": {
+    "@types/cli-progress": "^3.11.5",
+    "@types/tiny-async-pool": "^2.0.3",
+    "@types/xml2js": "^0.4.14",
+    "cli-progress": "^3.12.0",
+    "mongo": "^0.1.0",
+    "mongodb": "^6.5.0",
+    "puppeteer": "^22.6.1",
+    "tiny-async-pool": "^2.1.0",
+    "xml2js": "^0.6.2"
+  }
+}
