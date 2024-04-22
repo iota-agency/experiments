@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
     "build": "tsc",
-    "dev": "ts-node index.ts"
+    "dev": "ts-node css2tw/index.ts"
   },
   "keywords": [],
   "author": "",

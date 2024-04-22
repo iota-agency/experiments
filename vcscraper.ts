@@ -32,7 +32,7 @@ class Downloader {
         }, Presets.shades_classic);
     }
 
-    async downloadPost(record: Record<string, any>): Promisex1<void> {
+    async downloadPost(record: Record<string, any>): Promise<void> {
         try {
             const {_id, url} = record;
             const page = await this.browser.newPage();
